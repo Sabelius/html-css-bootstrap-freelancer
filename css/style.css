@@ -1,0 +1,67 @@
+.header-col{
+    height: 50px;
+    background-color: black;
+
+}
+.header-sub-col{
+    background-color: white;
+    height: 25px;
+}
+.jumbotron{
+    height: 300px;
+    background-color: greenyellow;
+}
+.jumbo-image{
+    height: 100px;
+    background-color: blue;
+}
+.jumbo-text,
+.main-text,
+.second-main-text,
+.third-main-text{
+    height: 30px;
+    background-color: brown;
+}
+.main-image-col{
+    height: 300px;
+}
+.main-image{
+    background-color: violet;
+    height: 120px;
+    width: 140px;
+    border: 1px solid black;
+}
+.second-main-col{
+    background-color: greenyellow;
+    height: 300px;
+}
+.second-main-col-text{
+    height: 120px;
+    background-color: brown;
+    border: 1px solid black;
+}
+.second-main-button,
+.third-main-button{
+    height: 30px;
+    background-color: blue;
+}
+.third-main-col{
+    height: 400px;
+}
+.footer-col{
+    height: 80px;
+    background-color: rgb(48, 48, 128);
+}
+.footer-sub-col{
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.footer-final-col{
+    height: 50px;
+    background-color: rgb(41, 41, 100);
+}
+.footer-final-sub-col{
+    height: 20px;
+    background-color: grey;
+}
