@@ -1,6 +1,5 @@
 .header-col{
-    height: 50px;
-    background-color: black;
+    background-color: rgb(41, 41, 100);
 
 }
 .header-sub-col{
@@ -12,51 +11,70 @@ section{
 }
 .jumbotron,
 .second-main-col{
-    background-color: greenyellow;
+    background-color: rgb(82, 236, 159);
 }
 .jumbo-image{
-    height: 100px;
-    background-color: blue;
+    background-image: url(../img/avatar.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
 }
-.jumbo-text,
-.main-text,
-.second-main-text,
-.third-main-text{
-    height: 30px;
-    background-color: brown;
+.fa-star{
+    font-size: 30px;
 }
 .bottom-text{
     margin-bottom: 10px;
 }
 .main-image{
-    background-color: violet;
-    height: 150px;
-    border: 1px solid black;
+    height: 250px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position:center;
 }
-.second-main-col-text{
-    height: 150px;
-    background-color: brown;
-    border: 1px solid black;
+.image1{
+    background-image: url(../img/cabin.png);
+    
 }
-.second-main-button{
-    height: 30px;
-    background-color: blue;
+.image2{
+    background-image: url(../img/cake.png);
+}   
+.image3{
+    background-image: url(../img/circus.png);
+
+}
+.image4{
+    background-image: url(../img/game.png);
+
+}
+.image5{
+    background-image: url(../img/safe.png);
+}
+.image6{
+    background-image: url(../img/submarine.png);
+}
+.btn-primary{
+    background-color: rgb(82, 236, 159);
+    border: 1px solid white;
     margin-bottom: 10px;
+}
+.btn-primary:hover{
+    background-color: rgb(82, 236, 159);
+    border: 1px solid white;
 }
 .footer-col{
     background-color: rgb(48, 48, 128);
 }
 .footer-sub-col{
-    height: 50px;
-    background-color: white;
-    border: 1px solid black;
     margin-bottom: 10px;
 }
+.fab{
+    color: white;
+    font-size: 30px;
+}
 .footer-final-col{
-    height: 50px;
     background-color: rgb(41, 41, 100);
 }
-.footer-final-sub-col{
-    height: 20px;
-    background-color: grey;
+p a{
+    color: green;
 }
