@@ -8,10 +8,10 @@
     height: 25px;
 }
 section{
-    padding: 20px;
+    padding-bottom: 25px;
 }
-.jumbotron{
-    height: 300px;
+.jumbotron,
+.second-main-col{
     background-color: greenyellow;
 }
 .jumbo-image{
@@ -25,16 +25,16 @@ section{
     height: 30px;
     background-color: brown;
 }
+.bottom-text{
+    margin-bottom: 10px;
+}
 .main-image{
     background-color: violet;
-    height: 120px;
+    height: 150px;
     border: 1px solid black;
 }
-.second-main-col{
-    background-color: greenyellow; 
-}
 .second-main-col-text{
-    height: 120px;
+    height: 150px;
     background-color: brown;
     border: 1px solid black;
 }
@@ -42,9 +42,6 @@ section{
     height: 30px;
     background-color: blue;
     margin-bottom: 10px;
-}
-.third-main-col{
-    height: 400px;
 }
 .footer-col{
     background-color: rgb(48, 48, 128);
