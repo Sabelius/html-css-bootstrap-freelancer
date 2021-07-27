@@ -28,9 +28,9 @@ section{
 }
 .main-image{
     height: 250px;
-    border-radius: 10px;
-    background-size: cover;
-    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .image1{
     background-image: url(../img/cabin.png);
